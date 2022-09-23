@@ -1,0 +1,37 @@
+.contact {
+
+    background-image: url('https://image.jimcdn.com/app/cms/image/transf/none/path/s334bb40630f64928/backgroundarea/iccb668f8e9d29ee8/version/1661845346/image.jpg');
+    height: 50vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: overlay;
+
+}
+
+.subContact {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 14px;
+    width: 85%;
+    margin: 0 auto;
+    color: aliceblue;
+    padding-top: 60px;
+}
+
+.Input {
+    padding: 5px;
+    margin-right: 5px;
+
+}
+
+.MainInput {
+    padding-top: 50px;
+}
+
+.Submit {
+    padding: 6px 12px;
+    color: aliceblue;
+    background-color: rgb(94, 240, 125);
+    border: none;
+}

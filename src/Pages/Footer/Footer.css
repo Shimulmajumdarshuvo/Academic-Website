@@ -10,6 +10,10 @@
     margin: 0 auto;
 }
 
+.footer h1 {
+    color: lightgreen;
+}
+
 .footerTitle {
     padding: 25px 0;
 }
