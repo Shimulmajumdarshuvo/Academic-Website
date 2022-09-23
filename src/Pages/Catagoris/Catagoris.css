@@ -1,0 +1,58 @@
+.Catagories {
+    background-image: linear-gradient(90deg, #5359cc, #5b7f81b4);
+}
+
+.mainCatagoris {
+    background-image: url('https://educationpost.com.au/wp-content/uploads/2020/04/3-reasons-why-uni-friends-are-the-best-friends_.png');
+    height: 60vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: overlay;
+}
+
+.subCatagories {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 14px;
+    width: 85%;
+    margin: 0 auto;
+    padding-top: 35px;
+}
+
+.subTitles {}
+
+.subTitles span {
+    font-size: 35px;
+    color: lightgreen;
+}
+
+.subTitles h2 {
+    font-size: 23px;
+    margin: 0;
+    color: lightgreen;
+    padding: 6px 0;
+}
+
+.subTitles p {
+    color: rgba(218, 188, 188, 0.616);
+}
+
+
+@media only screen and (max-width:860px) {
+    .subCatagories {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+
+    }
+
+}
+
+@media only screen and (max-width:560px) {
+    .subCatagories {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+
+    }
+
+}

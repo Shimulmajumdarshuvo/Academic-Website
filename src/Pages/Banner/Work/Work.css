@@ -1,0 +1,61 @@
+.work {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 15px;
+    text-align: center;
+    width: 85%;
+    margin: 0 auto;
+
+
+}
+
+.workSection h1 {
+    text-align: center;
+    padding-bottom: 60px;
+
+}
+
+.subWork {
+    border: 1px solid rgb(159, 170, 170);
+    padding: 15px;
+}
+
+.icon {
+    transform: translateY(-40px);
+
+}
+
+.icons {
+    background-color: mediumseagreen;
+
+    clip-path: polygon(53% 0, 53% 0, 100% 28%, 100% 71%, 55% 100%, 52% 100%, 0 71%, 0 28%);
+    padding: 25px;
+    color: aliceblue;
+    font-size: 40px;
+}
+
+.btn {
+    border: none;
+    padding: 12px 20px;
+    color: aliceblue;
+
+    background-color: mediumseagreen;
+}
+
+@media only screen and (max-width:860px) {
+    .work {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+
+    }
+
+}
+
+@media only screen and (max-width:560px) {
+    .work {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+
+    }
+
+}

@@ -1,0 +1,20 @@
+.mainAbout {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-gap: 15px;
+    width: 85%;
+    margin: 0 auto;
+}
+
+.about {
+    background-color: rgb(37, 28, 95);
+    padding: 20px 0;
+    color: aliceblue;
+}
+
+.buotn {
+    border: none;
+    color: aquamarine;
+    background-color: rgb(37, 28, 95);
+    font-size: 19px;
+}

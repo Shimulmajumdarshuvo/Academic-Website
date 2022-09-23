@@ -1,0 +1,60 @@
+.mainFooter {
+    background-color: rgba(12, 61, 124, 0.979);
+}
+
+.footer {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 15px;
+    width: 85%;
+    margin: 0 auto;
+}
+
+.footerTitle {
+    padding: 25px 0;
+}
+
+.footerTitle p {
+    margin: 0;
+    color: lightgreen;
+
+}
+
+.Btn {
+    border: none;
+    color: lightgreen;
+    padding: 10px 2px;
+    font-size: 18px;
+    background-color: rgba(12, 61, 124, 0.979);
+}
+
+.footerTitle span {
+
+    border-bottom: 2px solid rgb(234, 233, 238);
+    color: aliceblue;
+
+}
+
+.footerEnd {
+    color: aliceblue;
+    text-align: center;
+    padding: 20px;
+}
+
+@media only screen and (max-width:860px) {
+    .footer {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+
+    }
+
+}
+
+@media only screen and (max-width:560px) {
+    .footer {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+
+    }
+
+}

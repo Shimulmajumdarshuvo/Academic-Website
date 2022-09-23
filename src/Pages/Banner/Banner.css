@@ -1,0 +1,23 @@
+.bannerHead {
+    background-image: url('https://c1.wallpaperflare.com/preview/294/960/948/university-student-graduation-photo-hats.jpg');
+    height: 80vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: overlay;
+}
+
+.banner {
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+}
+
+.banner h1 {
+    font-weight: bold;
+    font-size: 65px;
+    color: aliceblue;
+    margin-top: 180px;
+}
